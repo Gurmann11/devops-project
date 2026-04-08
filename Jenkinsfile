@@ -23,7 +23,8 @@ pipeline {
        stage('Scan Docker Image') {
     steps {
         sh '''
-        trivy image --format template --template "@contrib/html.tpl" -o trivy-report.html $IMAGE_NAME
+        wget https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/html.tpl
+        trivy image --format template --template "@html.tpl" -o trivy-report.html $IMAGE_NAME
         '''
     }
 }
