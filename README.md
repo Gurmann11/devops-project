@@ -42,7 +42,7 @@ I also hardened Jenkins itself — no anonymous access, RBAC enforced with prope
 
 ## Stack
 
-- **Jenkins** — pipeline orchestration, running locally
+- **Jenkins** — CI/CD pipeline orchestration, running locally
 - **Docker** — containerization
 - **Trivy** — CVE scanning inside the pipeline
 - **Python / Flask** — the application being deployed
