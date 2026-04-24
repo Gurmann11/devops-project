@@ -75,7 +75,9 @@ I also hardened Jenkins itself — no anonymous access, RBAC enforced with prope
 ---
 
 ### Trivy CVE Scan Report
-*Coming soon — will show before/after CVE count after base image upgrade*
+*HTML Publisher report inside Jenkins — CVE severity breakdown after base image upgrade*
+
+![Trivy Report](Trivy%20Report.png.png)
 
 ---
 
@@ -108,10 +110,14 @@ You'll see CVE severity levels broken down by package. Try it on an older base i
 
 ```
 devops-project/
-├── Jenkinsfile        # pipeline stages — checkout, build, scan, deploy
-├── Dockerfile         # how the container is built
-├── app.py             # Flask app
-├── requirements.txt   # Python deps
+├── Jenkinsfile          # pipeline stages — checkout, build, scan, deploy
+├── Dockerfile           # how the container is built
+├── app.py               # Flask app
+├── requirements.txt     # Python deps
+├── pipeline.png.png     # Jenkins pipeline screenshot
+├── build-logs.png.png   # Console output screenshot
+├── docker-container.png.png  # Docker container screenshot
+├── Trivy Report.png.png # Trivy CVE scan report screenshot
 └── README.md
 ```
 
