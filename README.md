@@ -48,13 +48,13 @@ Manual deployment is time-consuming and error-prone. This project solves that by
 ## 📸 Screenshots
 
 ### Jenkins Pipeline
-![Jenkins Pipeline](pipeline.png)
+![Jenkins Pipeline](pipeline.png.png)
 
 ### Build Logs (Console Output)
-![Build Logs](build-logs.png)
+![Build Logs](build-logs.png.png)
 
 ### Docker Container Running
-![Docker Container](docker-container.png)
+![Docker Container](docker-container.png.png)
 
 
 ---
