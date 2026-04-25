@@ -125,8 +125,10 @@ devops-project/
 
 ## What I'd add next
 
-Deploying this on a cloud instance is the obvious next step — right now it runs locally. I also want to try SonarQube for static analysis on the Python code itself, not just the image. And proper Slack alerts when a build fails would make this feel more like a real team setup.
-
+## What I'd add next
+✅ SonarQube — already implemented in my next project
+Deploying on a cloud instance is next — currently runs locally.
+Slack alerts on build failure would make it feel like a real team setup.
 ---
 
-**Gurmann Singh Dhillon** — gurmanndhillon84@gmail.com — [github.com/Gurmann11](https://github.com/Gurmann11)
+**Gurmann Singh Dhillon** — gurmanndhillon84@gmail.com — (https://linkedin.com/in/gurmanndhillon)-[github.-com/Gurmann11](https://github.com/Gurmann11)
